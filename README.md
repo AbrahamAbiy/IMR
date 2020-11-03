@@ -5,7 +5,7 @@ The State of the World’s Children report by UNICEF provides a rich dataset whi
 
 Hypothesis
 
-By examining this rich dataset and utilising data analytics techniques, 3 algorithms will be used to make inferences about the data and make predictions. 
+By examining this rich dataset and utilising data analytics techniques, 2 algorithms will be used to make inferences about the data and make predictions. 
 I.	Linear Regression: with this initial approach I will attempt to model the child mortality over time given historical results per country. The main aim is the prediction of child mortality statistics given a new country is created.The hypothesis in this case is in the fit of a predictive model given the observed data set.
 II.	Classification: by exploring additional research, I can enrich the data by adding a variable related to the development status (Developed/Developing/Least developed) for a subset of the data. Using classification techniques, I aim to classify countries’ development given by the statistics given by the State of the World’s Children Report. 
 
@@ -20,7 +20,7 @@ The datasets were not pre processed so some cleaning to remove unnecessary eleme
 
 Linear Regression
 
-First a dataset was obtained which detailed pneumonia risk factors in children for various years ranging from 1990-2017. For my purposes I only required data for 2017, so I removed all other years from the dataset. In addition, two datasets were joined to give a holistic view of child mortality for each country, which I useD as the target,  and the related risk factors i.e. features of my dataset.
+First a dataset was obtained which detailed pneumonia risk factors in children for various years ranging from 1990-2017. For my purposes I only required data for 2017, so I removed all other years from the dataset. In addition, two datasets were joined to give a holistic view of child mortality for each country, which I used as the target,  and the related risk factors i.e. features of my dataset.
 
 Logistic Regression
 
